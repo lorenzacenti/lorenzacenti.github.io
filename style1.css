@@ -1,0 +1,66 @@
+html{
+	box-sizing:border-box;
+}
+/* a star * means eveything*/
+*, *:before, *:after{
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+
+}
+
+body{
+	margin:0;
+}
+
+#topbar{
+	position:fixed;
+	padding:10px;
+	background-color: pink;
+	width:100%; 
+}
+
+#topbar p:hover {
+	font-family:"Courier New", Courier, monospace;
+	text-align:center;
+	
+}
+
+#cat{
+	width:40%;
+	float: left;
+	background-color: teal;
+	height:600px;
+
+}
+
+
+#dog{
+	width:20%;
+	float:left;
+	background-color: blue;
+	height: 600px;
+
+}
+
+
+#mouse{
+	width: 40%;
+	float:right;
+	background-color: deepskyblue;
+	height: 600px;	
+}
+
+#footer{
+	background: brown;
+	color:white;
+	padding:20px;
+
+}
+/* this is how to clear floating elements. 
+adds html content and clears the float for anything after*/
+
+.group:after{
+	content:"";
+	display:table;
+	clear:both;
+}
