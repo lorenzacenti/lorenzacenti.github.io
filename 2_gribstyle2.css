@@ -1,0 +1,53 @@
+html {
+
+	font-family: "glitchlapolicethin", monospace, monospace;
+		box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,*:before, *:after {
+	box-sizing: border-box;
+}
+
+
+body{
+
+#text
+ {color: blue;
+font-size: 10pt }
+
+
+
+#a1{
+	width: 33%;
+	float:left;
+	background-color: blue;
+	padding:10px;
+}
+
+#a2{
+	width: 33%;
+	float:left;
+	background-color: blue;
+	padding:10px;
+}
+
+#a3{
+	width: 33%;
+	float:right;
+	background-color: blue;
+	padding:10px;
+}
+
+#footer{
+	background-color:red;
+	padding-top: 5px;
+	padding-bottom: 50px;
+}
+
+/* clearfix*/
+.group:after{
+	content:"";
+	display: table;
+	clear:both;
+}

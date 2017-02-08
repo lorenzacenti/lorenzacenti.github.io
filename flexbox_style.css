@@ -1,0 +1,66 @@
+.container {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.main-content{
+	background-color: grey;
+}
+
+.sidebar1{
+	background-color: orange;
+}
+
+.sidebar2{
+	background-color: deepskyblue;
+	font-family: 'Inconsolata', monospace;
+font-family: 'VT323', monospace;
+}
+/* tell all items to be 100% width */
+/* code isn't working, comment out parts of the code 
+by holding command then / */
+.header, .main-content, .footer, .sidebar-generic{
+	flex:1 100%;
+}
+
+@media all and (min-width: 800px){
+	.sidebar-generic {
+		flex: 1 auto;
+	}
+	.main-content{
+		flex: 5 0px;
+		background-color: green;
+	}
+
+	.sidebar1{
+		order: 1;
+		background-color: pink;
+
+	}
+
+	.main-content{
+		order: 2;
+		background-color: purple;
+	}
+
+	.sidebar2{
+		order: 3;
+		background-color:  yellow;
+	}
+
+	.footer{
+		order: 4;
+		background-color:  red;
+	}
+}
+
+	@media all and (min-width: 700px){
+		body{
+			background-color: pink;
+		}
+	}
+
+
+
+	}
+}

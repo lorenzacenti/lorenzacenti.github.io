@@ -1,0 +1,21 @@
+
+
+body{
+}
+	.menu{color: blue;
+font-size: 40pt 
+font:'Inconsolata', monospace; 
+font-family: 'VT323', monospace;
+text-align:center;
+margin-top: 500px
+
+
+
+}
+
+img {
+    position: absolute;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+}
+
