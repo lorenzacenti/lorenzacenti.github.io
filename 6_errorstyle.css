@@ -1,0 +1,7 @@
+html {
+background: url('images/fail.gif') no-repeat center fixed ;
+background-size: 800px 800px;
+color: red;
+font-size: 70px;
+text-align: center;
+
