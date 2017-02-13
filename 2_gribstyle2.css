@@ -1,53 +1,21 @@
+	
 html {
+background: url('images/background-01.png') no-repeat center fixed ;
+background-size: 600px 800px;;
+
 
 	font-family: "glitchlapolicethin", monospace, monospace;
 		box-sizing: border-box;
-	box-sizing: border-box;
+	box-sizing: border-box;}
+
+#menu{
+	color:blue;
+	padding-top: 320px;
+	padding-left: 460px;
 }
 
-*,*:before, *:after {
-	box-sizing: border-box;
-}
+#info{
+	color: blue;
+	
 
-
-body{
-
-#text
- {color: blue;
-font-size: 10pt }
-
-
-
-#a1{
-	width: 33%;
-	float:left;
-	background-color: blue;
-	padding:10px;
-}
-
-#a2{
-	width: 33%;
-	float:left;
-	background-color: blue;
-	padding:10px;
-}
-
-#a3{
-	width: 33%;
-	float:right;
-	background-color: blue;
-	padding:10px;
-}
-
-#footer{
-	background-color:red;
-	padding-top: 5px;
-	padding-bottom: 50px;
-}
-
-/* clearfix*/
-.group:after{
-	content:"";
-	display: table;
-	clear:both;
 }

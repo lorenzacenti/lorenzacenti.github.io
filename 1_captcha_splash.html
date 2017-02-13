@@ -1,19 +1,81 @@
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title></title>
-		<link rel="stylesheet" type="text/css" href="1_captcha_splash_style.css" />
-
+	
+	<!-- <link rel="stylesheet" type="text/css" href="mystyles.css"> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
 	<link href='fonts/glitchlapolice_font.css' rel='stylesheet' type='text/css'>
 
+	<style>
+	body {
+		background-color: blue;
+	}
+
+	#container {
+
+	}
+
+	a {
+		text-decoration:none;
+	}
+
+	#captcha {
+		color:white;
+		font-family: "glitchlapolicethin", monospace, monospace;
+ 		font-size:100px;
+ 		text-align: right;
+		margin-top: 300px;
+		padding-right: 70px
+	}
+	
+
+	#captcha a{
+		color:white;
+	}
+
+	#captcha :hover {
+		color:blue;
+	}
+
+	#captcha a:hover {
+		color:blue;
+	}
+
+	.hoverTrue {
+		background-color: white;
+	}
+
+	</style>
+
+	<script>
+	$(document).ready(function(){
+
+
+		$('#captcha').mouseenter(function(){
+			$('body').addClass("hoverTrue");
+		});
+
+		$('#captcha').mouseleave(function(){
+			$('body').removeClass("hoverTrue");
+		});
+
+
+	})
+
+	</script>
+
+
+</head>
 <body>
+
 <div id="captcha">
-	<h1>CAPTCHA</h1>
-
-
-<h1 id="captcha">
-   <a href="2_grid.html" target="_blank">CAPTCHA</a>
-</h1></div>
+	<a href="2_grid.html">CAPTCHA</a>
+</div>
 
 </body>
 </html>

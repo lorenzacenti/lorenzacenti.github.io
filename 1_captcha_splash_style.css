@@ -8,27 +8,22 @@ html {
 
 body{
 }
-#captcha{color:white;
-font-size: 30pt } 
 
-h1.captcha {
-  padding-top: 0.7em;
-  padding-bottom: 0.7em;
-  width: 100%;
-  margin: 0 auto;
-  font-size: 45pt
-  font-color: white;
 
 }
 
-h1.captcha a:hover {
-  color: white;
+#captcha a{
+  color:white;
+  font-size: 72px
 }
 
-h1.captcha:hover {
+#captcha:hover {
   background-color: blue;
 }
 
-h1.captcha:hover a{
-  color: white;
+
+
+  .hoverBackground{
+    background-color: white
+  }
 }
