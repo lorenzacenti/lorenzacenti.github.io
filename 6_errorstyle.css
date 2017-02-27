@@ -1,7 +1,10 @@
 html {
 background: url('images/fail.gif') no-repeat center fixed ;
 background-size: 800px 800px;
-color: red;
-font-size: 70px;
+color: #5dff00;
+font-family: 'VT323', monospace;
+font-size: 100px;
 text-align: center;
+position: fixed;
+padding-bottom: 30px;
 
