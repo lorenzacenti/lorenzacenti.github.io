@@ -1,7 +1,7 @@
 	
 html {
 background: url('images/background-01.png') no-repeat center fixed ;
-background-size: 600px 800px; position: fixed;
+background-size: 800px 1000px; position: fixed;
 
 
 	font-family: "glitchlapolicethin", monospace, monospace;
@@ -26,7 +26,7 @@ background-size: 600px 800px; position: fixed;
 
 	#menu{
 	color:blue;
-	padding-top: 320px;
+	padding-top: 30px;
 	padding-left: 460px;}
 
 
